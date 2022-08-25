@@ -46,3 +46,207 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+    background-image: url(img/bg-body.jpg);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header .top-list{
+    display: flex;
+    justify-content: center;
+    background: #4c1863;
+}
+.header .top-list li a{
+    border: 1px solid black;
+    display: block;
+    padding: 20px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #91779d;
+    text-decoration: none;
+}
+.header .top-list li a:hover{
+    background: #360746;
+    color: white;
+}
+.wrap h1{
+    background: #ffecc3;
+    padding: 20px 20px 10px 70px;
+    color: #b90044;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.banner{
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.banner .structure{
+    position: absolute;
+    top: 20px;
+    left: 680px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+}
+.content p{
+    background: #ffecc3;
+    color: #b90044;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 30px;
+}
+.program{
+    background: white;
+}
+.program h2{
+    padding: 20px 20px 30px 70px;
+    color: #b90044;
+    font-size: 30px;
+    font-weight: bold;
+}
+.program .program-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.program .program-list li{
+    margin: 10px;
+    width: 250px;
+    box-shadow: 5px 5px 10px grey;
+}
+.program .program-list li img{
+    width: 100%;
+}
+.program-1{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.list-1{
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    transition: all 1s;
+    padding: 10px 0px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.program-1:hover .list-1{
+    bottom: 0px;
+}
+.program-2{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.list-2{
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    transition: all 1s;
+    padding: 10px 0px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.program-2:hover .list-2{
+    bottom: 0px;
+}
+.program-3{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.list-3{
+    width: 100%;
+    position: absolute;
+    bottom: -70px;
+    transition: all 1s;
+    padding: 10px 0px;
+    background: black;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+}
+.program-3:hover .list-3{
+    bottom: 0px;
+}
+.program-4{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.list-4{
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    transition: all 1s;
+    padding: 10px 0px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.program-4:hover .list-4{
+    bottom: 0px;
+}
+.program-5{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.list-5{
+    width: 100%;
+    position: absolute;
+    bottom: -34px;
+    transition: all 1s;
+    padding: 10px 0px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.program-5:hover .list-5{
+    bottom: 0px;
+}
+.program-6{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.list-6{
+    width: 100%;
+    position: absolute;
+    bottom: -40px;
+    transition: all 1s;
+    padding: 10px 0px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.program-6:hover .list-6{
+    bottom: 0px;
+}
+.footer{
+    background: #ffecc3;
+    display: flex;
+}
+.footer .about{
+    border: 1px solid black;
+    width: 800px;
+}
+.footer .footer-link{
+    width: 200px;
+}
+.footer .connect{
+    width: 200px;
+}
