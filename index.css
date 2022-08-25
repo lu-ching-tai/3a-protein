@@ -237,16 +237,34 @@ body{
     bottom: 0px;
 }
 .footer{
+    padding: 30px 0px;
     background: #ffecc3;
     display: flex;
 }
+.footer p{
+    padding: 0px 20px;
+}
+.footer .footer-title{
+    text-align: center;
+    display: block;
+    color: #b90044;
+    padding: 20px 0px;
+}
 .footer .about{
-    border: 1px solid black;
-    width: 800px;
+    line-height: 20px;
+    width: 900px;
 }
 .footer .footer-link{
     width: 200px;
 }
-.footer .connect{
-    width: 200px;
+.bottom-link li{
+    padding: 10px 0px;
+    text-align: center;
+}
+.bottom-link li a{
+    color: black;
+    text-decoration: none;
+}
+.bottom-link li a:hover{
+    color: red;
 }
